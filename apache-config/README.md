@@ -1,6 +1,6 @@
 # Steps to host this website using Apache httpd
 
-- Load the httpd.conf file is exists, else ignore
+- Load the httpd.conf file if exists, else ignore
 - Inside `apache2/sites-available` dir or create such a dir
   - Change `ServerName` and `ServerAlias` in both the .conf files
   - Change `ServerAdmin` information
